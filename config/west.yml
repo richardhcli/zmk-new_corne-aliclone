@@ -6,13 +6,21 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: m165437 #new entry #https://github.com/M165437/nice-view-gem/tree/main/boards
+      url-base: https://github.com/M165437 #new entry
   projects:
-    - name: eyelash_corne
-      url: https://github.com/a741725193/zmk-new_corne
-      revision: main
+      # default zmk project that has to be included?
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      # Add additional projects here
+    - name: eyelash_corne
+      url: https://github.com/a741725193/zmk-new_corne
+      revision: main
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
+
   self:
     path: config
