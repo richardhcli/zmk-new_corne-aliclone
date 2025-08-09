@@ -60,8 +60,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "QWERTY";
+        letter_layer {
+            display-name = "alphas";
             bindings = <
 &kp ESCAPE  &kp X  &kp C  &kp L  &kp D                 &kp G                               &kp UP                &kp FSLH   &kp U                  &kp O         &kp Y  &kp K  &kp BACKSPACE
 &kp TAB     &kp R  &kp S  &kp N  &kp T                 &kp B                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp COMMA  &kp A                  &kp E         &kp I  &kp H  &kp SQT
