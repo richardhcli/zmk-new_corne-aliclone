@@ -2,17 +2,17 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   alphas:
   - $$mdi:keyboard-esc$$
-  - X
-  - C
-  - L
-  - D
-  - G
+  - W
+  - F
+  - M
+  - P
+  - V
   - $$mdi:arrow-up-bold$$
   - {t: /, s: '?'}
-  - U
-  - O
-  - Y
-  - K
+  - {t: ., s: '>'}
+  - Q
+  - Z
+  - J
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - R
@@ -30,18 +30,18 @@ layers:
   - H
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
-  - W
-  - F
-  - M
-  - P
-  - V
+  - X
+  - C
+  - L
+  - D
+  - G
   - RGB TOG
   - $$mdi:arrow-down-bold$$
   - {t: ;, s: ':'}
-  - {t: ., s: '>'}
-  - Q
-  - J
-  - Z
+  - U
+  - O
+  - Y
+  - K
   - $$mdi:apple-keyboard-option$$
   - NAV
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
